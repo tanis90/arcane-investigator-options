@@ -1,0 +1,15 @@
+{
+  "name": "arcane-investigator-options",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "章鱼调查员扩展资料包：Foundry VTT brp 系统的可选 Item 包。",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node tools/pack.mjs",
+    "pack": "node tools/pack.mjs"
+  }
+}

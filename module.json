@@ -1,0 +1,34 @@
+{
+  "id": "arcane-investigator-options",
+  "title": "章鱼调查员扩展资料包",
+  "description": "为章鱼料理研究会（brp）补充 31 项扩展技能与 148 个扩展职业。启用模块并勾选两个包后生效，撤下后世界回到核心 60 技能 / 9 职业入口。",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13.351",
+    "maximum": "13"
+  },
+  "authors": [
+    {
+      "name": "tanis90"
+    }
+  ],
+  "packs": [
+    {
+      "name": "arcane-investigator-skills",
+      "label": "章鱼调查员扩展 · 技能",
+      "path": "packs/arcane-investigator-skills",
+      "type": "Item",
+      "system": "brp"
+    },
+    {
+      "name": "arcane-investigator-professions",
+      "label": "章鱼调查员扩展 · 职业",
+      "path": "packs/arcane-investigator-professions",
+      "type": "Item",
+      "system": "brp"
+    }
+  ],
+  "license": "LICENSE.txt",
+  "readme": "README.md"
+}
